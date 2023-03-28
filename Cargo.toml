@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "spmspm_monitor"
+version = "0.1.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+axum = "0.6.12"
+iced = "0.8.0"
+iced_web = "0.4.0"
+lazy_static = "1.4.0"
+serde = {version = "1.0.145", features = ["derive"]}
+
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
